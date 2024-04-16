@@ -51,7 +51,7 @@ if [[ "$HYPERSCALER" == "google" ]]; then
     gcloud projects create ${PROJECT_ID}
 
     echo "
-Please open https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=$PROJECT_ID in a browser and *ENABLE* the API."
+Please xdg-open https://console.developers.google.com/apis/api/compute.googleapis.com/overview?project=$PROJECT_ID in a browser and *ENABLE* the API."
 
     gum input --placeholder "
 Press the enter key to continue."
